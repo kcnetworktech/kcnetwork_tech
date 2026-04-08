@@ -1,0 +1,252 @@
+================================================================================
+SPAETH TECH — CHATBOT KNOWLEDGE BASE
+IT Services & Consulting · Kansas City, MO
+================================================================================
+Last updated: 2026 | Contact: tyler@spaeth.tech | Website: spaeth.tech
+================================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1: SERVICES OFFERED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q: What services does Spaeth Tech offer?
+A: Spaeth Tech offers three main service areas:
+   1. Network Setup & Maintenance – designing, installing, and maintaining reliable, secure networks for homes and offices.
+   2. Remote Worker Tech Support – fast, friendly IT help for people working from home, available remotely or on-site.
+   3. IT Consulting & Strategy – helping small businesses make smart technology decisions, plan IT roadmaps, and improve security.
+
+Q: Do you help with home networks?
+A: Yes! Spaeth Tech sets up and optimizes home networks, including router configuration, WiFi coverage, firewall/security hardening, and troubleshooting. A home network setup project starts at $299.
+
+Q: Do you support small businesses?
+A: Absolutely. Spaeth Tech specializes in helping small businesses (1–25 employees) with network setup, workstation configuration, cloud migration, security assessments, and ongoing IT support through monthly retainer plans.
+
+Q: Can you help me set up Microsoft 365 or Google Workspace?
+A: Yes. Spaeth Tech handles cloud migrations including Microsoft 365 and Google Workspace setup, email migration, and data migration. Cloud migration projects start at $499.
+
+Q: Do you offer cybersecurity services?
+A: Yes. Spaeth Tech provides security assessments covering network and endpoint vulnerability reviews, with a written report and recommendations. Security assessments start at $399. Security hardening is also included in network setup services.
+
+Q: Can you help with device/workstation setup?
+A: Yes. Workstation setup includes new device configuration, software installation, and account migration, priced at $149 per device.
+
+Q: Do you do IT audits?
+A: Yes. Spaeth Tech offers a full IT Audit & Roadmap service — a complete technology assessment with a written IT roadmap and budget recommendations — starting at $599.
+
+Q: Can you handle custom or unusual IT projects?
+A: Yes. Custom projects are scoped and quoted individually at no charge. Contact tyler@spaeth.tech for a free estimate.
+
+Q: Do you offer remote support or only on-site?
+A: Both. Remote support is available for all clients. On-site visits are included in higher retainer tiers (Professional and Business plans) and available for project work within 30 miles of Kansas City.
+
+Q: What does "network maintenance" include?
+A: Network maintenance includes ongoing monitoring, troubleshooting, performance fixes, router and access point management, WiFi optimization, and firewall upkeep.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2: PRICING & PLANS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+── HOURLY RATES ──
+
+Q: What are your hourly rates?
+A: Spaeth Tech has three hourly rates:
+   • General IT Support: $100/hour (1-hour minimum) — hardware, software, connectivity, device setup & troubleshooting.
+   • IT Strategy & Consulting: $150/hour — technology roadmaps, vendor selection, infrastructure planning, security assessments.
+   • Emergency / After-Hours: $150/hour — evenings, weekends, and urgent response outside standard business hours.
+
+Q: What is the minimum charge for hourly work?
+A: There is a 1-hour minimum for general IT support.
+
+Q: Do you charge extra for after-hours support?
+A: Yes. Emergency or off-hours support (evenings and weekends) is billed at $150/hour instead of the standard $100/hour.
+
+── MONTHLY RETAINER PLANS ──
+
+Q: Do you offer monthly support plans?
+A: Yes. There are three monthly retainer tiers:
+
+   TIER 1 – ESSENTIAL: $149/month
+   • Up to 2 hours of support per month
+   • Remote support only
+   • Email & chat response
+   • Next business day response
+   • Monthly check-in call
+   • Additional hours at $100/hr
+   Best for: Remote workers and home offices.
+
+   TIER 2 – PROFESSIONAL: $299/month (Most Popular)
+   • Up to 5 hours of support per month
+   • Remote support + 1 on-site visit per month
+   • Phone, email & chat response
+   • Priority response (4-hour SLA)
+   • Monthly review & reporting
+   • Additional hours at $90/hr
+   Best for: Small businesses with 1–10 employees.
+
+   TIER 3 – BUSINESS: $549/month
+   • Up to 10 hours of support per month
+   • Unlimited remote + 2 on-site visits per month
+   • Phone, email & chat response
+   • Same-day response (2-hour SLA)
+   • Quarterly IT strategy review
+   • Additional hours at $85/hr
+   Best for: Growing SMBs with 10–25 employees.
+
+Q: What happens if I use more hours than my plan includes?
+A: Additional hours beyond your monthly plan are billed at a discounted rate:
+   • Essential plan: $100/hr
+   • Professional plan: $90/hr
+   • Business plan: $85/hr
+
+Q: Which retainer plan is the most popular?
+A: The Professional plan at $299/month is the most popular. It's designed for small businesses with 1–10 employees.
+
+Q: What is the response time for each plan?
+A: Response times vary by plan:
+   • Essential: Next business day
+   • Professional: 4-hour SLA (priority response)
+   • Business: 2-hour SLA (same-day response)
+
+Q: Do retainer plans include on-site visits?
+A: The Essential plan is remote support only. The Professional plan includes 1 on-site visit per month. The Business plan includes 2 on-site visits per month plus unlimited remote support.
+
+── PROJECT FLAT FEES ──
+
+Q: Do you have flat-fee pricing for projects?
+A: Yes. Common project flat fees (starting prices) include:
+   • Home Network Setup: $299
+   • Small Business Network Setup: $799
+   • Workstation Setup (per device): $149
+   • Cloud Migration (M365 or Google Workspace): $499
+   • Security Assessment: $399
+   • IT Audit & Roadmap: $599
+   • Custom Project: Quoted on request (free estimate)
+
+Q: What does the small business network setup include?
+A: It includes full network design, switch and access point setup, firewall configuration, and setup for up to 10 devices. Starting price is $799.
+
+Q: How much does a security assessment cost?
+A: A security assessment starts at $399 and includes a network and endpoint vulnerability review with a written report and recommendations.
+
+── SERVICE BUNDLES ──
+
+Q: Do you offer any bundled packages or discounts?
+A: Yes! There are four service bundles:
+
+   WORK FROM HOME STARTER – $599 (save $148)
+   Includes: Home network setup, workstation setup (1 device), cloud account setup (M365 or Google), security & backup configuration.
+
+   SMALL BUSINESS JUMPSTART – $1,699 (save $397)
+   Includes: Small business network setup, up to 3 workstation setups, cloud migration (M365 or Google), security assessment & report.
+
+   IT FOUNDATION PACKAGE – $899 (save $299)
+   Includes: Full IT audit & roadmap, security assessment & report, 2-hour strategy consultation, 90-day follow-up check-in.
+
+   ONBOARD & RETAIN – Custom pricing (10% off project fee)
+   Includes: Any scoped project + first 3 months of the Essential retainer plan + priority onboarding support.
+
+Q: How much can I save with a bundle?
+A: Bundle savings range from $148 (Work From Home Starter) to $397 (Small Business Jumpstart). The IT Foundation Package saves $299.
+
+── PAYMENT & TERMS ──
+
+Q: When is payment due?
+A: All invoices are due upon receipt. Project deposits of up to 50% may be required before work begins.
+
+Q: Is there a late fee?
+A: Yes. Past-due balances (7 or more days overdue) incur a $25/month late fee. Services may be paused on accounts 30 or more days overdue.
+
+Q: Do I need to sign a long-term contract?
+A: No. There are no long-term contracts required. Retainer plans can be cancelled with 7 days written notice.
+
+Q: How does travel billing work?
+A: On-site services within 30 miles of Kansas City are included at no extra charge. Travel beyond 30 miles is billed at $0.70/mile.
+
+Q: Are prices negotiable or are these starting rates?
+A: The listed prices are starting rates. Complex projects are scoped and quoted individually at no extra charge. Contact tyler@spaeth.tech for a custom quote.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3: CONTACT & LOCATION INFO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q: How do I contact Spaeth Tech?
+A: You can reach Spaeth Tech by:
+   • Email: tyler@spaeth.tech
+   • Website: spaeth.tech (includes a contact form)
+   Tyler responds within 1 business day.
+
+Q: Who is Tyler Spaeth?
+A: Tyler Spaeth is the founder of Spaeth Tech. He has a Computer Science degree and over 15 years of hands-on IT experience. When you work with Spaeth Tech, you work directly with Tyler — no ticket queues, no offshore support.
+
+Q: Where is Spaeth Tech located?
+A: Spaeth Tech is based in Kansas City, Missouri. Tyler provides both remote support (available anywhere) and on-site support across the Kansas City metro area.
+
+Q: How far do you travel for on-site work?
+A: On-site visits within 30 miles of Kansas City are included at no extra charge. Travel beyond 30 miles is billed at $0.70/mile.
+
+Q: What are your business hours?
+A: Standard business hours apply for regular support. After-hours and emergency support is available at $150/hour (evenings and weekends).
+
+Q: How quickly will someone respond to my inquiry?
+A: Tyler aims to respond within 1 business day. Retainer plan clients receive faster SLAs — as quick as 2 hours for Business plan clients.
+
+Q: Do you serve clients outside of Kansas City?
+A: Yes. Remote support is available to clients anywhere. On-site services are focused on the Kansas City metro area (within 30 miles), with travel available beyond that at $0.70/mile.
+
+Q: What is the website for Spaeth Tech?
+A: The website is spaeth.tech.
+
+Q: What is the email address for Spaeth Tech?
+A: The email address is tyler@spaeth.tech.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 4: BOOKING / GETTING STARTED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q: How do I get started with Spaeth Tech?
+A: Getting started is easy:
+   1. Reach out via email (tyler@spaeth.tech) or the contact form at spaeth.tech.
+   2. Book a free 30-minute discovery call — no obligation.
+   3. Tyler will assess your needs and recommend the right service or plan.
+   4. For projects, a scoped quote is provided at no charge.
+
+Q: Is there a free consultation?
+A: Yes! All new clients receive a complimentary 30-minute discovery call and needs assessment with no obligation.
+
+Q: Do I have to commit to a monthly plan, or can I pay hourly?
+A: Both options are available. You can hire Spaeth Tech on an hourly basis for one-off support (starting at $100/hour), or sign up for a monthly retainer plan for ongoing support. There are no long-term contracts.
+
+Q: What information should I have ready when I reach out?
+A: It helps to have a brief description of what you're experiencing or what you'd like help with — for example, your type of business, number of devices, and the main issue or goal. Tyler will handle the rest during your discovery call.
+
+Q: Can I get a quote before committing?
+A: Yes. Custom project quotes are provided at no charge. Just reach out to tyler@spaeth.tech or use the contact form at spaeth.tech.
+
+Q: What happens during the free discovery call?
+A: During the 30-minute call, Tyler will learn about your setup, understand your needs, and explain exactly how he can help — with no pressure or obligation to proceed.
+
+Q: How do I cancel a retainer plan?
+A: Retainer plans can be cancelled with 7 days written notice. There are no long-term contracts or cancellation fees.
+
+Q: Can I start with a project and then move to a monthly plan?
+A: Yes! The "Onboard & Retain" bundle is designed exactly for that — combine any scoped project with the first 3 months of the Essential retainer plan and receive 10% off the project fee.
+
+Q: What types of clients does Spaeth Tech typically work with?
+A: Spaeth Tech works with:
+   • Remote workers and home office professionals
+   • Small businesses with 1–10 employees
+   • Growing SMBs with 10–25 employees
+   • Anyone needing one-time IT help or a project quote
+
+Q: Is there any risk in signing up?
+A: No. There are no long-term contracts. Retainer plans can be cancelled with 7 days notice. New clients also get a free discovery call before committing to anything.
+
+
+================================================================================
+END OF KNOWLEDGE BASE — Spaeth Tech LLC · Kansas City, Missouri · 2026
+For updates, contact tyler@spaeth.tech
+================================================================================
