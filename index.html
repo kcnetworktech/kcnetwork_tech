@@ -147,7 +147,7 @@
   <div class="section-inner">
     <div class="about-grid">
       <div class="about-img-wrap">
-        <div class="about-avatar"><img src="assets/Professional headshot with friendly smile.png" alt="Man in blue jacket and white button-down shirt"></div>
+        <div class="about-avatar"><img src="assets/Professional headshot with friendly smile.png" alt="Man in blue jacket and white button-down shirt" width="100%"></div>
         <div class="about-badge">
           <div class="about-badge-num">15+</div>
           <div class="about-badge-label">Years in IT</div>
@@ -414,7 +414,7 @@
     </div>
   </div>-->
 
-<button id="zammad-feedback-form" class="form-submit">Feedback</button>
+<div id="zammad-feedback-form">form will be placed in here</div>
 
 <script id="zammad_form_script" src="http://support.tylerspaeth.com/assets/form/form.js"></script>
 
@@ -425,7 +425,7 @@ $(function() {
     messageSubmit: 'Submit',
     messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
     showTitle: true,
-    modal: true,
+    noCSS: true,
     attachmentSupport: true
   });
 });
