@@ -874,6 +874,28 @@ margin-top: 4px;
 box-shadow: 0 4px 24px rgba(37,99,235,0.3);
 }
 .form-submit:hover { background: var(--blue2); transform: translateY(-1px); }
+.form-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
+
+.form-result {
+font-size: 14px;
+text-align: center;
+margin-top: 14px;
+padding: 10px 12px;
+border-radius: 8px;
+min-height: 1em;
+transition: background 0.2s, color 0.2s;
+}
+.form-result:empty { display: none; }
+.form-result--success {
+background: #ecfdf5;
+color: #065f46;
+border: 1px solid #a7f3d0;
+}
+.form-result--error {
+background: #fef2f2;
+color: #991b1b;
+border: 1px solid #fecaca;
+}
 
 .form-note {
 font-size: 12px;

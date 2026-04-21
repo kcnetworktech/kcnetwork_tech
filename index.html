@@ -363,34 +363,44 @@
         </div>
       </div>
 
-<!--      <div class="contact-form">
+      <div class="contact-form">
         <h3>Send a Message</h3>
         <p class="form-sub">Fill out the form and I'll get back to you within one business day.</p>
-	      <form>
+	      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms access key — replace YOUR_WEB3FORMS_ACCESS_KEY_HERE after signing up at https://web3forms.com -->
+          <input type="hidden" name="access_key" value="1b3ebc87-19e5-4505-a3e6-469a5fc27b0d">
+
+          <!-- Customizes the notification email you receive -->
+          <input type="hidden" name="subject" value="New lead from kcnetwork.tech">
+          <input type="hidden" name="from_name" value="KC Network Tech Website">
+
+          <!-- Honeypot spam trap — real users leave it blank; bots fill it and get rejected -->
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
           <div class="form-row">
             <div class="form-group">
               <label>First Name</label>
-              <input type="text" name="firstName" placeholder="Jane">
+              <input type="text" name="firstName" placeholder="Jane" required>
             </div>
             <div class="form-group">
               <label>Last Name</label>
-              <input type="text" name="lastName" placeholder="Smith">
+              <input type="text" name="lastName" placeholder="Smith" required>
             </div>
           </div>
 
           <div class="form-group">
             <label>Email Address</label>
-            <input type="email" name="email" placeholder="jane@yourcompany.com">
+            <input type="email" name="email" placeholder="jane@yourcompany.com" required>
           </div>
 
           <div class="form-group">
             <label>Phone (optional)</label>
-            <input type="tel" name="phone" placeholder="(816) 555-0100">
+            <input type="tel" name="phone" placeholder="(816) 555-0100" inputmode="numeric" autocomplete="tel-national" maxlength="14" pattern="\(\d{3}\) \d{3}-\d{4}" title="Format: (xxx) xxx-xxxx">
           </div>
 
           <div class="form-group">
             <label>What do you need help with?</label>
-            <select name="service">
+            <select name="service" required>
 
               <option value="" disabled selected>Select a service...</option>
               <option>Network Setup & Maintenance</option>
@@ -404,34 +414,19 @@
 
           <div class="form-group">
             <label>Tell me more</label>
-            <textarea name="tellMeMore" placeholder="Describe what's going on or what you're looking for..."></textarea>
+            <textarea name="tellMeMore" placeholder="Describe what's going on or what you're looking for..." required></textarea>
           </div>
 
-          <button class="form-submit">Send Message →</button>
+          <button type="submit" class="form-submit">Send Message →</button>
+
+          <div id="form-result" class="form-result" role="status" aria-live="polite"></div>
 	      </form>
         <p class="form-note">🔒 Your information is kept private and never shared.</p>
       </div>
     </div>
-  </div>-->
+  </div>
 
-<div id="zammad-feedback-form">form will be placed in here</div>
-
-<script id="zammad_form_script" src="https://support.tylerspaeth.com/assets/form/form.js"></script>
-
-<script>
-$(function() {
-  $('#zammad-feedback-form').ZammadForm({
-    messageTitle: 'Feedback Form',
-    messageSubmit: 'Submit',
-    messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
-    showTitle: true,
-    noCSS: true,
-    attachmentSupport: true
-  });
-});
-</script>
 </section>
-
 
 
 <!-- ── FOOTER ── -->
@@ -466,5 +461,78 @@ $(function() {
 
   sections.forEach(s => observer.observe(s));
 
-  // Form submit placeholder
-  document.querySelector()
+  // ── Phone number auto-formatter: (xxx) xxx-xxxx ──
+  const phoneInput = document.querySelector('input[name="phone"]');
+  if (phoneInput) {
+    const formatPhone = (value) => {
+      // Strip everything that isn't a digit
+      let digits = value.replace(/\D/g, '');
+      // Drop leading US country code if present
+      if (digits.length === 11 && digits.startsWith('1')) {
+        digits = digits.slice(1);
+      }
+      // Cap at 10 digits
+      digits = digits.slice(0, 10);
+
+      if (digits.length === 0) return '';
+      if (digits.length < 4) return '(' + digits;
+      if (digits.length < 7) return '(' + digits.slice(0, 3) + ') ' + digits.slice(3);
+      return '(' + digits.slice(0, 3) + ') ' + digits.slice(3, 6) + '-' + digits.slice(6);
+    };
+
+    phoneInput.addEventListener('input', (e) => {
+      e.target.value = formatPhone(e.target.value);
+    });
+    phoneInput.addEventListener('paste', (e) => {
+      e.preventDefault();
+      const pasted = (e.clipboardData || window.clipboardData).getData('text');
+      e.target.value = formatPhone(pasted);
+    });
+  }
+
+  // ── Contact form AJAX submit (Web3Forms) ──
+  const contactForm = document.getElementById('contact-form');
+  const formResult = document.getElementById('form-result');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const submitBtn = contactForm.querySelector('.form-submit');
+      const originalBtnText = submitBtn.textContent;
+
+      formResult.className = 'form-result';
+      formResult.textContent = 'Sending…';
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+
+      try {
+        const formData = new FormData(contactForm);
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+        const json = await response.json();
+
+        if (response.status === 200 && json.success) {
+          formResult.className = 'form-result form-result--success';
+          formResult.textContent = "Thanks! Your message is in. I'll reply within one business day.";
+          contactForm.reset();
+        } else {
+          console.error(json);
+          formResult.className = 'form-result form-result--error';
+          formResult.textContent = json.message || 'Something went wrong. Please email me directly at tyler@kcnetwork.tech.';
+        }
+      } catch (err) {
+        console.error(err);
+        formResult.className = 'form-result form-result--error';
+        formResult.textContent = "Couldn't reach the form service. Please email me directly at tyler@kcnetwork.tech.";
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalBtnText;
+      }
+    });
+  }
+</script>
+</body>
+</html>
