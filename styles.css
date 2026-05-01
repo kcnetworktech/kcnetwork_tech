@@ -87,6 +87,16 @@ transition: background 0.2s !important;
 }
 .nav-cta:hover { background: var(--blue2) !important; color: var(--white) !important; }
 
+.nav-client-login {
+border: 1px solid rgba(255,255,255,0.25);
+color: var(--white) !important;
+padding: 7px 18px;
+border-radius: 8px;
+font-size: 0.85rem;
+transition: border-color 0.2s, background 0.2s !important;
+}
+.nav-client-login:hover { border-color: var(--sky) !important; background: rgba(255,255,255,0.06) !important; color: var(--white) !important; }
+
 /* ── HERO ── */
 #hero {
 min-height: 100vh;
