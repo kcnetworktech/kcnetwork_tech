@@ -9,7 +9,9 @@
       "Bash(ls -la \"/c/Users/tspae/AppData/Local/Temp/claude/c--Users-tspae-Documents-KC-Network-Tech-kcnetwork-tech/8c131f0b-94fd-4dae-a62d-3ee14d92bc64/scratchpad/\")",
       "Read(//c/Users/tspae/AppData/Local/Temp/claude/c--Users-tspae-Documents-KC-Network-Tech-kcnetwork-tech/8c131f0b-94fd-4dae-a62d-3ee14d92bc64/scratchpad//**)",
       "Bash(powershell -NoProfile -Command 'Get-NetTCPConnection -LocalPort 8123 -State Listen -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }')",
-      "WebFetch(domain:docs.hcaptcha.com)"
+      "WebFetch(domain:docs.hcaptcha.com)",
+      "Bash(python3 -)",
+      "Bash(/c/Users/tspae/AppData/Local/Programs/Python/Python312/python.exe -)"
     ]
   }
 }

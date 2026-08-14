@@ -19,6 +19,14 @@
 
 html { scroll-behavior: smooth; }
 
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.15em;
+  flex-shrink: 0;
+}
+
 /* Keep anchor targets clear of the fixed nav */
 section[id] { scroll-margin-top: 84px; }
 
@@ -309,6 +317,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: 18px;
+color: var(--sky);
 flex-shrink: 0;
 }
 
@@ -404,6 +413,7 @@ margin-bottom: 56px;
 
 .value-icon {
   font-size: 26px;
+  color: var(--sky);
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -463,6 +473,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: 24px;
+color: var(--sky);
 margin-bottom: 20px;
 }
 
@@ -598,6 +609,7 @@ border-radius: 10px;
 
 .credential-icon {
 font-size: 20px;
+color: var(--sky);
 flex-shrink: 0;
 }
 
@@ -855,6 +867,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: 18px;
+color: var(--sky);
 flex-shrink: 0;
 }
 
